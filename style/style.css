@@ -49,13 +49,16 @@ button {
     padding: 0 10px;
     margin: 0 auto;
 }
-
 .grid {
     display:grid;
 }
 
 .grid__col-6 {
     grid-template-columns: 1fr 1fr;
+}
+.grid__col-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 70px;
 }
 
 .header {
@@ -211,6 +214,7 @@ button {
 
 .technology {
     padding: 148px 0 164px;
+    background: #ffffff;
 }
 .technology__meets {
     padding: 126px 0;
@@ -257,6 +261,49 @@ button {
 .technology__bg {
     position: absolute;
     z-index: 1;
+}
+
+.insurance {
+    position: relative;
+    padding: 91px 0 85px;
+    text-align: center;
+}
+.insurance__picture {
+    position: absolute;
+    top: -110px;
+    margin: 0 auto;
+    width: 100%;
+}
+.insurance__title {
+    margin: 30px 0 37px;
+}
+.insurance__desc {
+    margin-bottom: 41px;
+}
+.insurance__card {
+    height: 280px;
+    padding: 30px 20px 0;
+}
+.insurance__img {
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.insurance__card-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #1D253C;
+}
+.insurance__card-desc {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #5A6482;
 }
 
 
